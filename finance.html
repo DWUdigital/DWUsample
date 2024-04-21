@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="style4.css" />
+    <title>Financal Services</title>
+  </head>
+  
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html" class="brand">DWU</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="member.html">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="header">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>Financal Services</h1>
+          <h2>Our Commitment to Excellence</h2>
+          <p>At OurCompany, we believe in the power of hard work. It's the cornerstone of every success story we create. Our journey began with inspiration, and we're dedicated to inspiring others along the way.</p>
+          <div class="header__btn">
+            <button class="btn btn__primary" onclick="scrollToServices()">Learn More</button>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    
+    <div class="media-icons">
+      <a href="https://www.facebook.com/profile.php?id=61558019032478"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/dwu_developer/?hl=en"><i class="fab fa-instagram"></i></a>
+  </div>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <h2 class="section__header">Financial Services</h2>
+        <p class="section__description">
+          Our mission is to inspire and support individuals in achieving their
+          dreams and goals who aspire to become the best version of themselves.
+        </p>
+      </div>
+    </section>
+    <section class="section__container about__container" id="financial-services"></section>
+    <section class="it-services">
+      <div class="section__container">
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Bookkeeping</h3>
+          <p>Accurate and organized management of financial records to ensure compliance and clarity.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $50</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>ERP Implementation</h3>
+          <p>Efficient integration of enterprise resource planning systems tailored to your business needs.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $50</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Payroll Processing</h3>
+          <p>Streamlined management of employee payroll, ensuring accuracy and timeliness.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $50</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Internal Control System</h3>
+          <p>Establishment of robust internal control mechanisms to safeguard assets and ensure compliance.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $80</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Financial Management</h3>
+          <p>Comprehensive management of financial resources to maximize profitability and efficiency.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $100</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Risk Analysis</h3>
+          <p>Evaluation of potential risks and development of strategies to mitigate them effectively.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $100</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Financial Reporting and Compliance</h3>
+          <p>Preparation of accurate financial reports and adherence to regulatory requirements.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $100</p>
+          </div>
+        </div>
+        <div class="text-block" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <h3>Audit Report (Signed by Board Qualified ACCA)</h3>
+          <p>Thorough audit conducted by ACCA-certified professionals, providing reliable insights.</p>
+          <div class="price-popup" style="display: none;">
+            <p>Price: $200</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+      <header>
+          <h2>Maple</h2>
+          <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+          <li class="chat incoming">
+              <span class="material-symbols-outlined">🦊</span> <!-- Replace smart_toy with fox emoji -->
+              <p>Hi there 👋<br>How can I help you today?</p>
+          </li>
+      </ul>
+      <div class="chat-input">
+          <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+  </div>
+    
+    
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <p>
+            Welcome to DWU , the spot for all your business needs.
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Church Street<br />MG Road, Bengaluru : India
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Strandvägen<br />114 56, Stockholm : Sweden
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Ordibehesht Street,<br />esfahan : Iran
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +46721985898 / Amelimassih@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +917676684545 / Amir0913105@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +918075291396 / lavanyaajithvaranapallil@gmail.com
+              </a>
+            </li>
+          </ul>        
+        </div>
+        <div class="footer__col">
+          <p>
+            SERVICES WE OFFER
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="digital.html">
+                <span><i class="ri-computer-fill"></i></span>
+                Digital Solutions<br />
+              </a>
+            </li>
+            <li>
+              <a href="finance.html">
+                <span><i class="ri-bank-fill"></i></span>
+                Financial Services<br />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span><i class="ri-clipboard-fill"></i></span>
+                Consulting<br />
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4>NEWSLETTER</h4>
+          <p>
+            Don't miss out on the latest news and offers - sign up today and
+            join our thriving community.
+          </p>
+          <form action="/">
+            <input type="text" placeholder="Enter Email" />
+            <button class="btn btn__primary">SEND</button>
+          </form>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/profile.php?id=61558019032478"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="https://www.instagram.com/dwu_developer/?hl=en"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <!-- Copyright © 2024 Web Design Mastery. All rights reserved.-->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script4.js"></script>
+  </body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>About US</title>
+  </head>
+  
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html" class="brand">DWU</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="member.html">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="header">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>About Us</h1>
+          <h2>Our Commitment to Excellence</h2>
+          <p>At OurCompany, we believe in the power of hard work. It's the cornerstone of every success story we create. Our journey began with inspiration, and we're dedicated to inspiring others along the way.</p>
+          <div class="header__btn">
+            <button class="btn btn__primary" onclick="scrollToTeamMembers()">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    
+    <div class="media-icons">
+      <a href="https://www.facebook.com/profile.php?id=61558019032478"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/dwu_developer/?hl=en"><i class="fab fa-instagram"></i></a>
+  </div>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <h2 class="section__header">ABOUT US</h2>
+        <p class="section__description">
+          Our mission is to inspire and support individuals in achieving their
+          dreams and goals who aspire to become the best version of themselves.
+        </p>
+      </div>
+      <div class="about__grid">
+        <div class="about__card">
+          <h4>EXPERENCED</h4>
+          <p>
+            We pride ourselves on having a team of dedicated and experienced
+            coaches who are committed to helping you succeed.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>VALUABLE</h4>
+          <p>
+            We believe that everyone should have access to high-quality digital services that matches their individual needs.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>INNOVATIVE</h4>
+          <p>
+            Stay ahead of the curve with our state-of-the-art equipment designed
+            to elevate your brand & business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="session">
+      <div class="session__card">
+        <h4><i class="fas fa-money-bill-wave"></i> FINANCE SERVICES</h4>
+        <p>
+          Manage your finances effectively with our expert finance services at
+          FitFinance.
+        </p>
+        <a href="finance.html" class="btn btn__secondary">READ MORE <i class="ri-arrow-right-line"></i></a>
+      </div>
+      <div class="session__card">
+        <h4><i class="fas fa-laptop"></i> DIGITAL SERVICES</h4>
+        <p>
+          Explore the digital realm with our cutting-edge digital services at
+          FitDigital.
+        </p>
+        <a href="digital.html" class="btn btn__secondary">READ MORE <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </section>
+     <!--
+    <section class="section__container trainer__container" id="team-members">
+     
+      <h2 class="section__header">MEET OUR TEAM MEMBERS</h2>
+    <div class="wrapper">
+      <div class="container">
+        <input type="radio" name="slide" id="c1" checked>
+        <label for="c1" class="card">
+            <div class="row">
+                <div class="icon">1</div>
+                
+                <div class="description">
+                    <h4>Amir</h4>
+                    <p>Founder</p>
+                    <div class="social-media">
+                      <a href="mailto:Amir0913105@gmail.com"><i class="ri-mail-fill"></i></a>
+                      <a href="https://www.instagram.com/amirr_fgh" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+            </div>  
+        </label>
+          <input type="radio" name="slide" id="c2" >
+          <label for="c2" class="card">
+              <div class="row">
+                  <div class="icon">2</div>
+                  <div class="description">
+                      <h4>Massih</h4>
+                      <p>Co-founder</p>
+                      <div class="social-media">
+                        <a href="mailto:Amelimassih@gmail.com"><i class="ri-mail-fill"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c3" >
+          <label for="c3" class="card">
+              <div class="row">
+                  <div class="icon">3</div>
+                  <div class="description">
+                      <h4>Lavanya</h4>
+                      <p>Chartered Accountant </p>
+                      <div class="social-media">
+                        <a href="mailto:lavanyaajithvaranapallil@gmail.com"><i class="ri-mail-fill"></i></a>
+                        <a href="https://www.instagram.com/_lavanyaajith_" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c4" >
+          <label for="c4" class="card">
+              <div class="row">
+                  <div class="icon">4</div>
+                  <div class="description">
+                      <h4>Rishikesh</h4>
+                      <p>Manager</p>
+                      <div class="social-media">
+                        <a href="mailto:Amir0913105@gmail.com"><i class="ri-mail-fill"></i></a>
+                        <a href="https://www.instagram.com/rishi_oreo" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c5" >
+          <label for="c5" class="card">
+              <div class="row">
+                  <div class="icon">5</div>
+                  <div class="description">
+                      <h4>Bhavana</h4>
+                      <p>Chartered Accountant </p>
+                      <div class="social-media">
+                        <a href="mailto:bhavanamanchanna3@gmail.com"><i class="ri-mail-fill"></i></a>
+                        <a href="https://www.instagram.com/bhavana.113" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c6" >
+          <label for="c6" class="card">
+            <div class="row">
+                <div class="icon">6</div>
+                <div class="description">
+                    <h4>Masih</h4>
+                    <p>Content Producer</p>
+                    <div class="social-media">
+                      <a href="mailto:lavanyaajithvaranapallil@gmail.com"><i class="ri-mail-fill"></i></a>
+                      <a href="https://www.instagram.com/masih.mzt" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </label>
+      </div>
+  </div>
+  </section>
+  -->
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <h2 class="section__header">BLOGS</h2>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="finance.jpg" alt="blog" />
+            <h4><a href="https://www.forbes.com/sites/forbesfinancecouncil/2023/09/28/why-your-brands-digital-presence-matters-more-than-ever/" target="_blank">Why Your Brand's Digital Presence Matters More Than Ever</a></h4>
+          </div>
+          <div class="blog__card">
+            <img src="digital.jpg" alt="blog" />
+            <h4><a href="https://www.entrepreneur.com/article/392841" target="_blank">Harnessing the Power of Technology: The Key to Brand Success</a></h4>
+          </div>
+          <div class="blog__card">
+            <img src="marketing.jpg" alt="blog" />
+            <h4><a href="https://blog.hubspot.com/marketing/branding-strategies" target="_blank">The Significance of Tech in Modern Branding Strategies</a></h4>
+          </div>
+          <div class="blog__card">
+            <img src="social.jpg" alt="blog" />
+            <h4><a href="https://www.businessnewsdaily.com/1901-digital-transformation.html" target="_blank">Digital Transformation: Driving Brand Growth in the 21st Century</a></h4>
+          </div>
+        </div>
+        <div class="blog__btn">
+          <button class="btn btn__primary">VIEW ALL</button>
+        </div>
+      </div>
+    </section>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+      <header>
+          <h2>Maple</h2>
+          <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+          <li class="chat incoming">
+              <span class="material-symbols-outlined">🦊</span> <!-- Replace smart_toy with fox emoji -->
+              <p>Hi there 👋<br>How can I help you today?</p>
+          </li>
+      </ul>
+      <div class="chat-input">
+          <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+  </div>
+  
+    
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <p>
+            Welcome to DWU , the spot for all your business needs.
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Church Street<br />MG Road, Bengaluru : India
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Strandvägen<br />114 56, Stockholm : Sweden
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Ordibehesht Street,<br />esfahan : Iran
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +46721985898 / Amelimassih@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +917676684545 / Amir0913105@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span>
+                +918075291396 / lavanyaajithvaranapallil@gmail.com
+              </a>
+            </li>
+          </ul>        
+        </div>
+        <div class="footer__col">
+          <p>
+            SERVICES WE OFFER
+          </p>
+          <ul class="footer__links">
+            <li>
+              <a href="digital.html">
+                <span><i class="ri-computer-fill"></i></span>
+                Digital Solutions<br />
+              </a>
+            </li>
+            <li>
+              <a href="finance.html">
+                <span><i class="ri-bank-fill"></i></span>
+                Financial Services<br />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span><i class="ri-clipboard-fill"></i></span>
+                Consulting<br />
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4>NEWSLETTER</h4>
+          <p>
+            Don't miss out on the latest news and offers - sign up today and
+            join our thriving community.
+          </p>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/profile.php?id=61558019032478"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="https://www.instagram.com/dwu_developer/?hl=en"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <!-- Copyright © 2024 Web Design Mastery. All rights reserved.-->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
